@@ -9,7 +9,7 @@ import UIKit
 
 class MainViewController:UIViewController {
   
-    var pedido = Pedido()
+    var pedido:Pedido?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +23,7 @@ class MainViewController:UIViewController {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         let sigVista = segue.destinationViewController as! PizzaSizeViewController
+        pedido = Pedido()
         sigVista.pedido = self.pedido
     }
 

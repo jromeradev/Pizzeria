@@ -15,4 +15,14 @@ class Pedido {
     var cheese:String = ""
     var ingredientes:[String]=[]
     
+    func addIngrediente(ingrediente:String){
+        ingredientes.append(ingrediente)
+    }
+    
+    func removeIngrediente(ingrediente:String){
+        if ingredientes.indexOf(ingrediente) != nil {
+            ingredientes.removeAtIndex(ingredientes.indexOf(ingrediente)!)
+        }
+    }
+    
 }
