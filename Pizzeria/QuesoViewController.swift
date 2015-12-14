@@ -25,6 +25,7 @@ class QuesoViewController:UIViewController {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         let sigVista = segue.destinationViewController as! IngredientesViewController
+       pedido?.cheese = queso.titleForSegmentAtIndex(queso.selectedSegmentIndex)!
         sigVista.pedido = self.pedido
     }
     

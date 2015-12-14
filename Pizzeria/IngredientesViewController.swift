@@ -35,6 +35,10 @@ class IngredientesViewController:UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let sigVista = segue.destinationViewController as! ConfirmacionViewController
+        sigVista.pedido = self.pedido
+    }
     
     
 }

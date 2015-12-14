@@ -26,13 +26,7 @@ class PizzaSizeViewController:UIViewController {
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         let sigVista = segue.destinationViewController as! MasaViewController
-        if (tamPizza.selectedSegmentIndex == 0){
-            pedido?.size = "Pequeña"
-        } else if(tamPizza.selectedSegmentIndex == 1){
-            pedido?.size = "Mediana"
-        } else if (tamPizza.selectedSegmentIndex == 2){
-            pedido?.size = "Grande"
-        }
+        pedido?.size = tamPizza.titleForSegmentAtIndex(tamPizza.selectedSegmentIndex)!
         sigVista.pedido = self.pedido
     }
     

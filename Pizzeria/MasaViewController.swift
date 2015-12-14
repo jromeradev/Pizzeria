@@ -25,6 +25,7 @@ class MasaViewController:UIViewController {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         let sigVista = segue.destinationViewController as! QuesoViewController
+        pedido?.masa = masa.titleForSegmentAtIndex(masa.selectedSegmentIndex)!
         sigVista.pedido = self.pedido
     }
     
