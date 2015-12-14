@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82ECE9071C1E3F6E0010F8FC /* PizzaSizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ECE9061C1E3F6E0010F8FC /* PizzaSizeViewController.swift */; };
+		82ECE9091C1E40BD0010F8FC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ECE9081C1E40BD0010F8FC /* MainViewController.swift */; };
+		82ECE90B1C1E411C0010F8FC /* Pedido.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ECE90A1C1E411C0010F8FC /* Pedido.swift */; };
+		82ECE90D1C1E42090010F8FC /* MasaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ECE90C1C1E42090010F8FC /* MasaViewController.swift */; };
+		82ECE90F1C1E42360010F8FC /* QuesoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ECE90E1C1E42360010F8FC /* QuesoViewController.swift */; };
+		82ECE9111C1E424B0010F8FC /* IngredientesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ECE9101C1E424B0010F8FC /* IngredientesViewController.swift */; };
+		82ECE9131C1E42660010F8FC /* ConfirmacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ECE9121C1E42660010F8FC /* ConfirmacionViewController.swift */; };
 		82F836AC1C1A1BC500793949 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F836AB1C1A1BC500793949 /* AppDelegate.swift */; };
 		82F836AE1C1A1BC500793949 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F836AD1C1A1BC500793949 /* ViewController.swift */; };
 		82F836B11C1A1BC500793949 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82F836AF1C1A1BC500793949 /* Main.storyboard */; };
@@ -15,6 +22,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		82ECE9061C1E3F6E0010F8FC /* PizzaSizeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaSizeViewController.swift; sourceTree = "<group>"; };
+		82ECE9081C1E40BD0010F8FC /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		82ECE90A1C1E411C0010F8FC /* Pedido.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pedido.swift; sourceTree = "<group>"; };
+		82ECE90C1C1E42090010F8FC /* MasaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasaViewController.swift; sourceTree = "<group>"; };
+		82ECE90E1C1E42360010F8FC /* QuesoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuesoViewController.swift; sourceTree = "<group>"; };
+		82ECE9101C1E424B0010F8FC /* IngredientesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientesViewController.swift; sourceTree = "<group>"; };
+		82ECE9121C1E42660010F8FC /* ConfirmacionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmacionViewController.swift; sourceTree = "<group>"; };
 		82F836A81C1A1BC500793949 /* Pizzeria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pizzeria.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82F836AB1C1A1BC500793949 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82F836AD1C1A1BC500793949 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +74,13 @@
 				82F836B21C1A1BC500793949 /* Assets.xcassets */,
 				82F836B41C1A1BC500793949 /* LaunchScreen.storyboard */,
 				82F836B71C1A1BC500793949 /* Info.plist */,
+				82ECE9061C1E3F6E0010F8FC /* PizzaSizeViewController.swift */,
+				82ECE9081C1E40BD0010F8FC /* MainViewController.swift */,
+				82ECE90A1C1E411C0010F8FC /* Pedido.swift */,
+				82ECE90C1C1E42090010F8FC /* MasaViewController.swift */,
+				82ECE90E1C1E42360010F8FC /* QuesoViewController.swift */,
+				82ECE9101C1E424B0010F8FC /* IngredientesViewController.swift */,
+				82ECE9121C1E42660010F8FC /* ConfirmacionViewController.swift */,
 			);
 			path = Pizzeria;
 			sourceTree = "<group>";
@@ -135,8 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82ECE90D1C1E42090010F8FC /* MasaViewController.swift in Sources */,
 				82F836AE1C1A1BC500793949 /* ViewController.swift in Sources */,
+				82ECE9131C1E42660010F8FC /* ConfirmacionViewController.swift in Sources */,
+				82ECE90F1C1E42360010F8FC /* QuesoViewController.swift in Sources */,
 				82F836AC1C1A1BC500793949 /* AppDelegate.swift in Sources */,
+				82ECE9071C1E3F6E0010F8FC /* PizzaSizeViewController.swift in Sources */,
+				82ECE9091C1E40BD0010F8FC /* MainViewController.swift in Sources */,
+				82ECE9111C1E424B0010F8FC /* IngredientesViewController.swift in Sources */,
+				82ECE90B1C1E411C0010F8FC /* Pedido.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +314,7 @@
 				82F836BC1C1A1BC500793949 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
